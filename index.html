@@ -10,6 +10,7 @@
     <script>
       window.opener = null;
       window.close();
+      window.opener = self;
       setTimeout(function() {window.close()}, 2000);
     </script>
   </head>
